@@ -1,7 +1,8 @@
 #ifndef COMPLEX_H_
 #define COMPLEX_H_
 
-/** @file This file contains declaration related to the Complex class. */
+/** @file complex.h File containing declarations related to the Complex
+ * class. */
 
 #include <ostream>
 #include <string>
@@ -24,6 +25,8 @@ namespace cw4 {
              * @param polar If set to true, it will assume the numbers given is
              * in polar form and treats the real parameter as the magnitude and
              * imag as the phase.
+             *
+             * @note The phase is assumed to be in radians.
              * */
             Complex(double real, double imag, bool polar = false);
 

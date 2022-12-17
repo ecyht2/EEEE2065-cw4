@@ -1,4 +1,5 @@
-/** @file File containing the implementation of the Complex class. */
+/** @file complex.cpp File containing the implementation of the Complex
+ * class. */
 
 #include "complex.h"
 
