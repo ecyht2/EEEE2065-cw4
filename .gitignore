@@ -51,3 +51,4 @@ vgcore.*
 # Exports
 *.pdf
 *.tex
+docs/
