@@ -1,6 +1,0 @@
-#ifndef MANDELBROT_SET_H_
-#define MANDELBROT_SET_H_
-
-
-
-#endif // MANDELBROT_SET_H_

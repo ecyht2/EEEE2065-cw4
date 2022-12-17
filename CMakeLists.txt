@@ -18,7 +18,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Adding global flags
 add_compile_options("-Wall")
 
-set(SOURCES mandlebrot-set)
+set(SOURCES mandelbrot-set)
 
 foreach(SOURCE ${SOURCES})
   add_subdirectory(src/${SOURCE})
