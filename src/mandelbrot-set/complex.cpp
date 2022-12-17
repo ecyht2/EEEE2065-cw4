@@ -5,6 +5,7 @@
 #include <cmath>
 #include <iostream>
 
+/** Namespace containing all functions and and classes for this coursework. */
 namespace cw4 {
     /** Default constructor for Complex class.
      *

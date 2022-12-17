@@ -6,6 +6,7 @@
 #include <ostream>
 #include <string>
 
+/** Namespace containing all functions and and classes for this coursework. */
 namespace cw4 {
     /** A class representing a complex number. */
     class Complex {
