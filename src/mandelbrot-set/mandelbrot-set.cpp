@@ -1,3 +1,6 @@
+/** @file mandelbrot-set.cpp File containing the implementation of the
+ * Mandelbrot class. */
+
 #include "mandelbrot-set.h"
 
 #include <iostream>
