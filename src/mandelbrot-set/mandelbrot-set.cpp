@@ -12,7 +12,7 @@
 namespace cw4 {
     /** Default constructor for Mandelbrot class.
      *
-     * The default sets the value of xMin = -2, xStep = 0.02, yMax = 1,
+     * The default sets the value of xMin = -2, xStep = 0.02, xMax = 1,
      * yMin = -1, yStep = 0.02, yMax = 1.
      * */
     Mandelbrot::Mandelbrot(void): Mandelbrot(-2, 0.02, 1, -1, 0.02, 1) {
