@@ -23,8 +23,8 @@ bin/mandelbrot-set
 ```
 
 ## TODO
-  * [ ] Improved Mandelbrot set algorigthm
-  * [ ] Setters for Mandelbrot set iterations and display characters
-  * [ ] Getters for Complex polar form
-  * [ ] Support for degrees for complex polar form
-  * [ ] Add support for argv
+* [ ] Improved Mandelbrot set algorigthm
+* [ ] Setters for Mandelbrot set iterations and display characters
+* [ ] Getters for Complex polar form
+* [ ] Support for degrees for complex polar form
+* [ ] Add support for argv
