@@ -111,10 +111,10 @@ namespace cw4 {
             for (unsigned int x = 0; x < Nx; x++) {
                 if (this->MBS[x + y * Nx]) {
                     // Printing in set
-                    std::cout << "1";
+                    std::cout << this->inSet;
                 } else {
                     // Printing not in set
-                    std::cout << "0";
+                    std::cout << this->outSet;
                 }
             }
             std::cout << std::endl;

@@ -76,6 +76,11 @@ namespace cw4 {
             unsigned int max_iteration = 1000; /**<Maximum iterations to
                                                 * determine if the complex
                                                 * number is in the set. */
+
+            char inSet = '1', /**<The character to display if the number is in
+                               * the MBS. */
+                outSet = '0'; /**<The character to display if the number is not
+                               * in the MBS. */
     };
 }
 
