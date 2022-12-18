@@ -59,14 +59,20 @@ namespace cw4 {
             /** Computes the MBS. */
             void calcMBS(void);
         private:
-            double xMin, xStep, xMax; /**<The range of the real elements of the
-                                       * MBS. */
-            double yMin, yStep, yMax; /**<The range of the imaginay elements of
-                                       * the MBS. */
-            unsigned int Nx = 1, Ny = 1; /**<The number of real and imaginary
-                                          * elements in each dimension of the
-                                          * MBS. */
-            int *MBS; /**<Array epesenting the 2D MBS. */
+            double xMin, /**<The minimum the real axis can be. */
+                xStep, /**<The amount each tick on the real axis increases. */
+                xMax; /**<The maximum the real axis can be. */
+
+            double yMin, /**<The minimum the imaginary axis can be. */
+                yStep, /**<The amount each tick on the imaginary axis
+                        * increases. */
+                yMax; /**<The maximum the imaginary axis can be. */
+
+            unsigned int Nx = 1, /**<The number of real elements in MBS. */
+                Ny = 1; /**<The number of imaginary elements in MBS. */
+
+            int *MBS; /**<Array repesenting the 2D MBS. */
+
             unsigned int max_iteration = 1000; /**<Maximum iterations to
                                                 * determine if the complex
                                                 * number is in the set. */
