@@ -73,10 +73,6 @@ namespace cw4 {
         this->yStep = yStep;
         this->yMax = yMax;
 
-        // Resettingg Nx and Ny
-        this->Nx = 1;
-        this->Ny = 1;
-
         // Reallocating new MBS
         this->calcNxNy();
         MBS = new int[Nx * Ny];
@@ -124,12 +120,16 @@ namespace cw4 {
 
     /** Computes Nx and Ny and set the values accordingly. */
     void Mandelbrot::calcNxNy(void) {
+        // Resetting Nx and Ny
+        this->Nx = 1;
+        this->Ny = 1;
+
         // Calcculating Nx
-        for (double x = xMin; x <= this->xMax; x += this->xStep) {
+        for (double x = xMin; x < this->xMax; x += this->xStep) {
             Nx++;
         }
         // Calcculating Ny
-        for (double y = yMin; y <= this->yMax; y += this->yStep) {
+        for (double y = yMin; y < this->yMax; y += this->yStep) {
             Ny++;
         }
     }
