@@ -1,8 +1,11 @@
-#ifndef MANDELBROT_SET_H_
-#define MANDELBROT_SET_H_
+#ifndef MANDELBROT_SET_MANDELBROT_SET_H_
+#define MANDELBROT_SET_MANDELBROT_SET_H_
 
 /** @file mandelbrot-set.h File containing declarations related to the
- * Mandelbrot class. */
+ * Mandelbrot class.
+ *
+ * Copyright [2022] ecyht2
+ * */
 
 /** Namespace containing all functions and and classes for this coursework. */
 namespace cw4 {
@@ -88,4 +91,4 @@ void testMBSClass(void);
 void evalMBS(void);
 } // namespace cw4
 
-#endif // MANDELBROT_SET_H_
+#endif // MANDELBROT_SET_MANDELBROT_SET_H_

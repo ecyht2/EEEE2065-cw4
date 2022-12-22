@@ -1,12 +1,15 @@
 /** @file mandelbrot-set.cpp File containing the implementation of the
- * Mandelbrot class. */
+ * Mandelbrot class.
+ *
+ * Copyright [2022] ecyht2
+ * */
 
-#include "mandelbrot-set.h"
+#include "./mandelbrot-set.h"
 
 #include <fstream>
 #include <iostream>
 
-#include "complex.h"
+#include "./complex.h"
 
 /** Namespace containing all functions and and classes for this coursework. */
 namespace cw4 {
@@ -143,6 +146,7 @@ void Mandelbrot::calcMBS(void) {
       for (unsigned int i = 0; i < this->max_iteration; i++) {
         // Applying formula
         z = (z ^ 2) + c;
+
         // Breaks loop if it diverges
         if (z.abs() > 2) {
           inSet = false;

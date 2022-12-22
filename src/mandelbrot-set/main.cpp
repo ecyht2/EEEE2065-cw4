@@ -1,13 +1,13 @@
 /** @file main.cpp Main file containing the main function to calculates
  * and prints a Mandelbrot set plot.
+ *
+ * Copyright [2022] ecyht2
  * */
 
 #include <iostream>
 
-#include "complex.h"
-#include "mandelbrot-set.h"
-
-using namespace std;
+#include "./complex.h"
+#include "./mandelbrot-set.h"
 
 /** The main function to print a Mandelbrot set plot.
  *
