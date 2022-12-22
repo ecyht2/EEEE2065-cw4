@@ -85,6 +85,6 @@ private:
 
 void testMBSClass(void);
 void evalMBS(void);
-} // namespace cw4
+}  // namespace cw4
 
 #endif  // SRC_MANDELBROT_SET_MANDELBROT_SET_H_
