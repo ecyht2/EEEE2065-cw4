@@ -4,7 +4,7 @@
  * Copyright [2022] ecyht2
  * */
 
-#include "./mandelbrot-set.h"
+#include "src/mandelbrot-set/mandelbrot-set.h"
 
 #include <fstream>
 #include <iostream>
