@@ -4,7 +4,7 @@
  * Copyright [2022] ecyht2
  * */
 
-#include "./mandelbrot-set.h"
+#include "mandelbrot-set.h"
 
 #include <fstream>
 #include <iostream>
@@ -179,4 +179,4 @@ void evalMBS(void) {
   MBS.printRange();
   MBS.printMBS();
 }
-} // Namespace cw4
+}  // namespace cw4
