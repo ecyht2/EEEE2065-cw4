@@ -16,9 +16,9 @@ using namespace std;
  * @return The exit status.
  * */
 int main(int argc, char *argv[]) {
-    // cw4::testComplexClass();
-    cw4::Mandelbrot MBS;
-    MBS.printRange();
-    MBS.printMBS();
-    return 0;
+  // cw4::testComplexClass();
+  cw4::Mandelbrot MBS;
+  MBS.printRange();
+  MBS.printMBS();
+  return 0;
 }
