@@ -17,8 +17,7 @@ using namespace std;
  * */
 int main(int argc, char *argv[]) {
   // cw4::testComplexClass();
-  cw4::Mandelbrot MBS;
-  MBS.printRange();
-  MBS.printMBS();
+  // cw4::testMBSClass();
+  cw4::evalMBS();
   return 0;
 }

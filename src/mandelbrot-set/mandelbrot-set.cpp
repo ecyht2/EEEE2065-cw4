@@ -155,4 +155,24 @@ void Mandelbrot::calcMBS(void) {
     }
   }
 }
-} // namespace cw4
+
+void testMBSClass(void) {
+  // Testing default constructor
+  Mandelbrot mbs;
+  mbs.printRange();
+
+  // Testing setRange()
+  mbs.setRange(-1, 0.1, 1, -1, 0.1, 1);
+  mbs.printRange();
+
+  // Testing parameterized constructor
+  Mandelbrot mbs2(-1, 0.1, 1, -1, 0.1, 1);
+  mbs.printRange();
+}
+
+void evalMBS(void) {
+  Mandelbrot MBS;
+  MBS.printRange();
+  MBS.printMBS();
+}
+} // Namespace cw4

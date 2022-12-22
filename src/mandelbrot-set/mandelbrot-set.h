@@ -83,6 +83,9 @@ private:
       outSet = '0'; /**<The character to display if the number is not
                      * in the MBS. */
 };
+
+void testMBSClass(void);
+void evalMBS(void);
 } // namespace cw4
 
 #endif // MANDELBROT_SET_H_
