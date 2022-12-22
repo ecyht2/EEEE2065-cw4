@@ -1,5 +1,5 @@
-#ifndef MANDELBROT_SET_MANDELBROT_SET_H_
-#define MANDELBROT_SET_MANDELBROT_SET_H_
+#ifndef SRC_MANDELBROT_SET_MANDELBROT_SET_H_
+#define SRC_MANDELBROT_SET_MANDELBROT_SET_H_
 
 /** @file mandelbrot-set.h File containing declarations related to the
  * Mandelbrot class.
@@ -68,8 +68,7 @@ private:
       xMax;    /**<The maximum the real axis can be. */
 
   double yMin, /**<The minimum the imaginary axis can be. */
-      yStep,   /**<The amount each tick on the imaginary axis
-                * increases. */
+      yStep,   /**<The amount each tick on the imaginary axis increases. */
       yMax;    /**<The maximum the imaginary axis can be. */
 
   unsigned int Nx = 1, /**<The number of real elements in MBS. */
@@ -77,18 +76,15 @@ private:
 
   int *MBS; /**<Array repesenting the 2D MBS. */
 
-  unsigned int max_iteration = 1000; /**<Maximum iterations to
-                                      * determine if the complex
-                                      * number is in the set. */
-
-  char inSet = '1', /**<The character to display if the number is in
-                     * the MBS. */
-      outSet = '0'; /**<The character to display if the number is not
-                     * in the MBS. */
+  /** Maximum iterations to determine if the complex number is in the set. */
+  unsigned int max_iteration = 1000;
+  char inSet = '1', /**<The character to display if the number is in the MBS. */
+      /** The character to display if the number is not in the MBS. */
+      outSet = '0';
 };
 
 void testMBSClass(void);
 void evalMBS(void);
 } // namespace cw4
 
-#endif // MANDELBROT_SET_MANDELBROT_SET_H_
+#endif  // SRC_MANDELBROT_SET_MANDELBROT_SET_H_
