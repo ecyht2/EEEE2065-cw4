@@ -24,7 +24,7 @@ bin/mandelbrot-set
 
 ## Documentation
 
-Documentation of the coursework can be found in the project [Github pages](https://ecyht2.github.io/EEEE2065-cw4/).
+Documentation of the coursework can be found in the project [GitHub pages](https://ecyht2.github.io/EEEE2065-cw4/).
 
 ## TODO
 * [ ] Improved Mandelbrot set algorigthm
