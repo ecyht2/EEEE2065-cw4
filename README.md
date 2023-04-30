@@ -1,6 +1,8 @@
 # EEEE2065-cw4
 A C++ script that computes if a given complex number is within the Mandelbrot set.
 
+The Rust implementation of the script can be found [here](https://github.com/ecyht2/mandelbrot-set-rs).
+
 ## Building
 
 ### Requirements
